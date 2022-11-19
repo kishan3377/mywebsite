@@ -1,0 +1,407 @@
+ul {
+    display: flex;
+    flex-direction: row;
+    margin: 38px 9px;
+}
+
+a {
+    text-decoration: none;
+    padding: 0px 0px;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 27px 40px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.donation {
+    border-radius: 11px;
+    padding: 12px;
+    background-color: rgb(221, 21, 21);
+    margin: auto 50px;
+}
+
+.donation a {
+    color: white;
+}
+
+
+/* css for homepage */
+
+.homepage {
+    background: url('homepage.webp') no-repeat center center/cover;
+    height: 750px;
+    width: 100%;
+}
+
+.homepagetext {
+    display: block;
+    padding: 100px 350px;
+    font-size: 4rem;
+    font-family: 'Varela Round', sans-serif;
+    color: rgb(37, 30, 25);
+}
+
+.btn1 {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0px 500px;
+    padding: 20px 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+}
+
+.btn1:hover {
+    background-color: rgb(180, 7, 7);
+}
+
+
+/* css for page 2 */
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.para1 {
+    width: 3000px;
+    height: 250px;
+    margin: 50px 50px;
+    padding: 10px 10px;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(126, 43, 43)
+}
+
+.para2 {
+    width: 3000px;
+    height: 250px;
+    margin: 50px 150px;
+    padding: 10px 10px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(245, 234, 220);
+}
+
+.para3 {
+    width: 50%;
+    margin: 10px 125px;
+    text-align: center;
+    justify-content: center;
+    padding: 50px 50px;
+    font-size: 1.5rem;
+}
+
+.btn2 {
+    margin: 25px 10px;
+    padding: 20px 30px;
+    font-size: 1rem;
+    font-weight: 450;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgb(250, 167, 14);
+    border: none;
+}
+
+.btn2:hover {
+    background-color: rgb(228, 188, 114);
+}
+
+.page2 {
+    background: url('page2 background.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+
+/* css for page 3 */
+
+.page3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    width: 2000px;
+    margin: 0px 100px;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.container1 img {
+    width: 600px;
+    height: 600px;
+}
+
+.btn3 {
+    margin: 30px 10px;
+    padding: 20px 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: rgb(250, 167, 14);
+}
+
+.container2 h2 {
+    font-weight: 500;
+}
+
+.btn3:hover {
+    background-color: rgb(230, 176, 77);
+    cursor: pointer;
+}
+
+
+/* css for page 4 */
+
+.page4 {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+}
+
+.containera {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.containerb img {
+    width: 600px;
+    height: 600px;
+}
+
+.btn4 {
+    margin: 50px 150px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(250, 167, 14);
+    border-radius: 8PX;
+    padding: 15px 10px;
+    border: none;
+    width: 50%;
+}
+
+.containera h2 {
+    font-weight: 500;
+}
+
+.btn4:hover {
+    background-color: rgb(238, 205, 145);
+    cursor: pointer;
+}
+
+
+/* css for page 5 */
+
+section .containerbox {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.box1 {
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    background-color: rgb(112, 84, 138);
+}
+
+.box1 img {
+    width: 323px;
+}
+
+.box2 {
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    background-color: rgb(112, 84, 138);
+}
+
+.box2 img {
+    width: 300px;
+    height: 224px;
+}
+
+.box3 {
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    background-color: rgb(112, 84, 138);
+}
+
+.box3 img {
+    width: 300px;
+    height: 224px;
+}
+
+.box4 {
+    text-align: center;
+    justify-content: center;
+    margin: 10px 10px;
+    background-color: rgb(112, 84, 138);
+}
+
+.box4 img {
+    width: 330px;
+    height: 224px;
+}
+
+.btnbox {
+    margin: 30px 30px;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    background-color: rgb(112, 84, 138);
+    border-color: white;
+}
+
+.box1:hover {
+    cursor: pointer;
+    background-color: rgb(194, 160, 226);
+}
+
+.box2:hover {
+    cursor: pointer;
+    background-color: rgb(194, 160, 226);
+}
+
+.box3:hover {
+    cursor: pointer;
+    background-color: rgb(194, 160, 226);
+}
+
+.box4:hover {
+    cursor: pointer;
+    background-color: rgb(163, 141, 184);
+}
+
+.page5 h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin: 40px 30px;
+}
+
+.lastbtn {
+    margin: 110px 500px;
+    font-size: 1.5rem;
+    padding: 20px 20px;
+    border-radius: 8px;
+    background-color: rgb(250, 167, 14);
+    border: none;
+    font-weight: 300;
+}
+
+.lastbtn:hover {
+    cursor: pointer;
+    background-color: rgb(245, 208, 139);
+}
+
+.page5 {
+    background-color: rgb(216, 223, 226);
+}
+
+
+/* css for page 6
+ */
+
+.page6 {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(236, 241, 243, 0.945)
+}
+
+.page6 div {
+    margin: 10px 10px;
+    padding: 15px 10px;
+    font-size: 1.5rem;
+}
+
+.page6 h1 {
+    font-weight: 500;
+    color: rgb(250, 167, 14);
+    ;
+}
+
+.lasty {
+    font-size: 1.2rem;
+    margin: 10px 0px;
+    padding: 20px 20px;
+    border-radius: 8px;
+    background-color: rgb(250, 167, 14);
+    border: none;
+}
+
+.lasty:hover {
+    background-color: rgb(228, 185, 107);
+    cursor: pointer;
+}
+
+.common:hover {
+    color: red;
+}
+
+.btnx {
+    font-size: 1.4rem;
+    margin: 10px 20px;
+    padding: 15px 20px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.btnx:hover {
+    background-color: rgb(224, 85, 85);
+    cursor: pointer;
+}
+
+.sponcer {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.a1 img {
+    width: 80px;
+}
+
+.a2 img {
+    width: 80px;
+}
+
+.a3 img {
+    width: 80px;
+}
+
+.sponcer {
+    margin: 10px 30px;
+    padding: 30px 30px;
+}
+
+.containery {
+    margin: 0px 50px;
+    padding: 0px 50px;
+}
